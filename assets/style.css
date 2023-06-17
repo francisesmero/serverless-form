@@ -1,0 +1,30 @@
+
+.container {
+    width:40% !important;
+}
+
+.form-container {
+    background-color:white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:20px;
+    border-radius: 10px;
+}
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="textarea"]:focus,
+    .form-text-area:focus {   
+    border-color: rgba(34, 67, 167, 0.343) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    outline: 0 none !important;
+}
+
+.btn-custom, .btn-custom:active, .btn-custom:visited {
+    background-color: #f25f5c !important;
+    color:white !important;
+}
+
+.btn-custom:hover {
+    background-color: #f25e5cee !important;
+    color:white !important;
+}
